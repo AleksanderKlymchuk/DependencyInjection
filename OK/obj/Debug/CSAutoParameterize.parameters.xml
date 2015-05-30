@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="OK.dk-Web.config Connection String" description="OK.dk Connection String used in web.config by the application to access the database." defaultValue="Data Source=mssql4.unoeuro.com;Initial Catalog=ivolta_dk_db;User ID=ivolta_dk;Password=Oleksandr2007" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\oleksandr\\Documents\\GitHub\\OK\\OK\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='OK.dk']/@connectionString" />
+  </parameter>
+</parameters>

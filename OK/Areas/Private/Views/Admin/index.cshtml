@@ -1,0 +1,79 @@
+﻿
+@{
+    Layout = "~/Areas/Private/Views/Shared/_LayoutPage.cshtml";
+    
+}
+@using System.Globalization
+@using OK.Models
+@model List<Content>
+<body>
+    <div>
+        <h3 class="header-line" style="margin-left:8%">Beskeder:</h3>
+    </div>
+    <div class="container"> 
+
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <td>
+                        Navn
+                    </td>
+                    <td>
+                        Email
+                    </td>
+                    <td>
+                        Emne
+                    </td>
+                    <td>
+                        Besked
+                    </td>
+                    <td>
+                        Dato
+                    </td>
+                    <td>Status</td>
+                </tr>
+                
+            </thead>
+            <tbody>
+             
+                    @foreach (Content content in Model)
+                    {
+                        <tr>
+                            <td>@content.Person.FullName</td>
+                            <td><a href="mailto:@content.Person.Email">@content.Person.Email</a></td>
+                            <td>@content.Topic</td>
+                            <td>@content.Message</td>
+                            <td>@content.UpdateTime</td>
+                            <td><lable class="">@(content.Status ? "Gamle" : "Ny")</lable>
+                            @using (Html.BeginForm("Update","Admin"))
+                            {
+                                if (content.Status)
+                                {
+                                    @Html.CheckBox("Status", new { @checked=true})
+                                }
+                                else
+                                {
+                                    @Html.CheckBox("Status")
+                                }
+                                <br />
+                               @Html.Hidden("ID",content.ID)
+                               @Html.Hidden("Topic",content.Topic)
+                               @Html.Hidden("Message",content.Message)
+                               @Html.Hidden("PersonId", content.PersonId)
+                               @Html.Hidden("CreateTime", content.CreateTime)
+                             <input type="submit" value="Update" class="btn btn-success" style="float:right" />
+                            }
+                            
+                            </td>
+                        </tr>
+                     
+                    }
+               
+             
+            </tbody>
+        </table>
+   
+
+    </div>
+</body>
+

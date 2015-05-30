@@ -1,0 +1,99 @@
+@media screen and (min-width: 0px) and (max-width: 1199px) {
+
+/*layout*/
+.c-nav
+{
+	height: 10%;
+    width: 100%;
+    position: fixed;
+    top:0%;
+    left: 0%;
+    background-color: #E6E6E6;
+    
+}
+.c-nav p
+{
+	display: none;
+}
+.display-none
+{
+  
+  visibility: visible;
+}
+body
+{
+	height: 2000px;
+}
+.c-body  span img
+{
+	height: 3em;
+	width: 8em;
+	margin: 3%;
+    
+}
+ul
+{
+
+ display: none;
+ position: fixed;
+ top: 2.5em;
+ right: 0%;
+ background-color: #E6E6E6;
+ border-top:rgb(#CACACA);
+ text-align: left;
+
+}
+ul li
+{
+	list-style: none;
+	padding-top: 4%;
+	color: black;
+	font-weight: bold;
+	
+}
+.c-body  span img
+{
+	height: 3em;
+	width: 8em;
+	margin: 3%;
+    
+}
+h2
+{
+ visibility: hidden;
+}
+h2:before
+{
+	content: 'CV';
+	visibility: visible;
+	color: black;
+    margin-left: 43%;
+}
+.c-pas
+{
+	margin-top: 10%;
+}
+
+.c-id img 
+{
+  height: 40%;
+  width: 40%;
+  margin: 5%;
+  margin-left: 30%;
+  margin-top: 20%;
+}
+#cv-menu
+{
+   position: fixed;
+   top:-0.2em;
+   right: 4%;
+   font-size: 400%;
+   font-weight: bold;
+}
+/*Color*/
+.c-id
+{
+	background-color: #8B9DC3;
+}
+
+}

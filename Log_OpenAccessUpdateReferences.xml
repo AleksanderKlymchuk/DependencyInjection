@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_ConvertModelWizard_Files\UpgradeReferences.xslt"?>
+<UpgradeLog>
+  <Events>
+    <Event EventType="Error" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\OK.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\OK.csproj" Message="Project References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\OK.csproj" Message="Import Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Areas\Private\Views\web.config" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Areas\Private\Views\web.config" Message="Http Handlers" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Areas\Private\Views\web.config" Message="Handlers (IIS7+)" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Areas\Private\Views\web.config" Message="Config Sections" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Areas\Private\Views\web.config" Message="Render Extensions" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Areas\Private\Views\web.config" Message="web.config" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\packages.config" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\packages.config" Message="Http Handlers" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\packages.config" Message="Handlers (IIS7+)" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\packages.config" Message="Config Sections" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\packages.config" Message="Render Extensions" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\packages.config" Message="packages.config" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Views\Web.config" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Views\Web.config" Message="Http Handlers" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Views\Web.config" Message="Handlers (IIS7+)" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Views\Web.config" Message="Config Sections" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Views\Web.config" Message="Render Extensions" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Views\Web.config" Message="Web.config" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Web.config" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Web.config" Message="Http Handlers" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Web.config" Message="Handlers (IIS7+)" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Web.config" Message="Config Sections" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Web.config" Message="Render Extensions" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Web.config" Message="Web.config" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Web.Debug.config" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Web.Debug.config" Message="Http Handlers" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Web.Debug.config" Message="Handlers (IIS7+)" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Web.Debug.config" Message="Config Sections" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Web.Debug.config" Message="Render Extensions" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Web.Debug.config" Message="Web.Debug.config" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Web.Release.config" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Web.Release.config" Message="Http Handlers" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Web.Release.config" Message="Handlers (IIS7+)" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Web.Release.config" Message="Config Sections" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Web.Release.config" Message="Render Extensions" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\Web.Release.config" Message="Web.Release.config" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK\OK.csproj" Message="OK" />
+    <Event EventType="Success" Action="Analyze" SourceItem="C:\Users\oleksandr\Desktop\OK\OK.sln" Message="OK" />
+  </Events>
+</UpgradeLog>

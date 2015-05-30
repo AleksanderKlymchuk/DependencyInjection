@@ -1,0 +1,48 @@
+﻿@model OK.Models.Content
+<div id="contact-form" class="form">
+@{
+    AjaxOptions option = new AjaxOptions()
+    {
+        OnSuccess = "app.formSuccess",
+        Url = Url.Action("Index"),
+        HttpMethod = "Post"
+
+
+    };
+
+
+}
+@using (Ajax.BeginForm(option))
+{
+    <div class="header-line"><span class=" glyphicon glyphicon-arrow-right"></span><span class="glyphicon glyphicon-remove"></span></div>
+    <div class="c-pas">
+        <b>Navn:</b><span>Oleksandr Klymchuk</span><br>
+        <b>Adresse:</b><span>Ankjær 205, 8300 Odder</span> <br>
+        <b>Mobil:</b><span><a href="tel:24961850"> 24 96 18 50</a></span><br>
+        <b>E-mail:</b><span><a href="mailto:olkly85@gmail.com">olkly85@gmail.com<a></span><br>
+    </div>
+    <div class="text">
+    <p>Tak fordi du besøger min hjemmeside.<br /> Hvis du vil gerne at komme i kontakt med mig, udfyld formularen nedenfor simpelthen </p>
+    </div>
+    <div class="input-group">
+        <label>Navn</label><br />   @Html.EditorFor(m=>m.Person.FullName)
+    </div>
+    <div class="input-group">
+        <label>Email</label><br />  @Html.EditorFor(m=>m.Person.Email)
+    </div>
+    <div class="input-group">
+        <label>Emne</label><br />   @Html.EditorFor(m=>m.Topic)
+    </div>
+    <div class="input-group">
+        <label>Besked</label><br />   @Html.TextAreaFor(m=>m.Message)
+    </div>
+    <div>
+        <input type="submit" value="SEND" class="btn btn-success" />
+    </div>
+    <div id="map"></div>
+}
+    <script src="~/Scripts/app/contactform.js"></script>
+</div>
+
+
+

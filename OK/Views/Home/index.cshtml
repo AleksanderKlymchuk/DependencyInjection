@@ -1,0 +1,81 @@
+﻿
+@{
+    ViewBag.Title = "Din Webudvikler";
+}
+<section>
+    <div id="nav-bar">
+        <ul>
+            <li><a id="logo"></a></li>
+            <li><a id="about">Om mig</a></li>
+            <li><a>Cases</a></li>
+            <li><a>Reference</a></li>
+            <li><a id="contact-li">Kontakt</a></li>
+            <li><span class="glyphicon glyphicon-phone"></span>&nbsp;<a href="tel:24961850">24-96-18-50</a></li>
+            <li>
+                <a href="https://plus.google.com/111332981892833949597">
+                    <img class="soc-li" id="g" src="~/images/googl.png" />
+                </a>
+                <a href="https://www.facebook.com/olkly85">
+                    <img class="soc-li" src="~/images/facebook.gif" />
+                </a>
+                <a href="https://twitter.com/?lang=da">
+                    <img class="soc-li" src="~/images/twitter.png" />
+
+                </a></li>
+        </ul>
+       
+    </div>
+</section>
+<section id="section1">
+    <div id="frame">
+        <div id="header">
+            <h2>Din Webudvikler</h2>
+        </div>
+         <div id="page" class="rotate"></div>
+        <div id="pattern"></div>
+        <div id="overlay"></div>
+        <div id="page0" class="rotate ">
+            <a class="custom" id="cv">CV</a><br />
+            <a class="custom">Portfolio</a><br />
+            <a class="custom" id="contact">Kontakt</a><br />
+        </div>
+        <div id="page1" class="rotate"></div>
+        <div id="page2" class="rotate"></div>
+        <div id="page3" class="rotate"></div>
+        <div id="page4" class="rotate page-down"></div>
+        <canvas id="canApp" width="300" height="300">
+            Your browser does not support canvas!
+        </canvas>
+        <div></div>
+    </div>
+    <div id="pop-up"></div>
+</section>
+<section id="section2">
+    <div id="face">
+    </div>
+    <div>
+        <p>
+            Jeg læsser til professionsbachelor i web udvikling på Erhvervsakademi Aarhus på det tredje semester. Jeg har et års
+            erfaring i webudvikling.<br />
+            Mine prime kompetencer er ASP .NET MVC 5,ASP.NET Web API 2,HTML-CSS-JS, jQuery,Telerik,C-Sharp,SQL Server
+            objective-C,mongoDB.<br />
+            Mangler du et ny webløsning, er jeg klar til at udvikle det.
+        </p>
+    </div>
+    <div></div>
+    <div><span></span></div>
+    <div id="social">
+        <span>
+        </span>
+    </div>  
+</section>
+<section id="section3">
+    @Html.Action("Info")
+</section>
+
+
+@section scripts{
+<script src="~/Scripts/app/landingPage.js"></script>
+}
+
+

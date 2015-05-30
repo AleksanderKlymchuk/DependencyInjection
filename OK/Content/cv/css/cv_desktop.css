@@ -1,0 +1,264 @@
+@media screen and (min-width: 1200px) {	
+
+/*layout*/
+#cv-menu
+{
+	display: none;
+}
+.c-pas b
+{
+	float: left;
+    margin-left:8%;
+    
+}
+.c-pas span
+{
+  position: absolute;
+  left: 53%;
+  margin-right: 15%;
+
+ 
+
+}
+.c-id
+{
+	float: left;
+	clear: right;
+	margin-left: 7%;
+	margin-right: 5%;
+    background-color:white;
+    width:12em;
+    height:16em;
+    border-style:none;
+}
+
+.c-id img 
+{
+  height: 85%;
+  width: 95%;
+  margin:2%;
+}
+.c-nav ul 
+{
+	margin-top: 2%;
+}
+.c-nav li
+{
+	list-style: none;
+	display: inline;
+	margin:-6%;
+	margin-left: 10%;
+	text-transform: uppercase;
+    font-size: 90%;
+}
+.c-nav p
+{
+	position: fixed;
+	left:3%;
+	top:-2%;
+	cursor: pointer;
+
+}
+a
+{
+	text-decoration: none;
+}
+
+
+.c-nav
+{
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+    height: 10%;
+}
+.c-pas
+{
+	margin-bottom: 5%;
+}
+h2
+{
+	margin: 5%;
+	margin-top: 10%;
+	margin-bottom: 5%;
+    margin-left: 25%;
+
+
+}
+p+h2
+{
+	display: none;
+}
+body
+{
+	margin: 5%;
+	margin-left: 12%;
+	height: 1900px;
+	background-image: url('../images/scratched-582602_1920.jpg');
+    background-size: 100em 2100px;
+    background-repeat: no-repeat;
+  
+}
+ h4
+{
+	margin-left: 1%;
+}
+
+.c-body  span img
+{
+	height: 3em;
+	width: 8em;
+	margin: 3%;
+    
+}
+.c-body p
+{
+	margin-left: 5%;
+}
+.c-body h4:first-child
+{
+	padding-top: 2%;
+}
+.c-body p:last-child
+{
+	padding-bottom: 2%;
+}
+.display-none
+{
+  
+  display: none;
+}
+
+.c-body
+{
+  text-align: left;
+  margin-top: 22%;
+  margin-left: -5%;
+  
+}
+#cv-n
+{
+    position: absolute;
+	top:10%;
+	left: 38%;
+
+}
+/*text*/
+body
+{
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 100%;
+
+   
+}
+h2{
+
+	font-size: 230%;
+	font-family:Impact, fantasy; 
+}
+.p-active
+{
+ font-size: 120%;
+ opacity: 1;
+ color: black;
+ 
+}
+.inactive
+{
+	color: #C9C9C9;
+}
+.active
+{
+	text-transform: uppercase;
+	
+}
+.c-nav ul li[data-ex]
+{
+	font-size: larger;
+
+}
+.c-nav 
+{
+  font-family: sans-serif;
+  font-size: 80%;
+  font-weight: bolder;
+
+}
+.c-pas{
+	font-size: 140%;
+	font-family:Impact, fantasy;
+}
+.c-nav li:hover
+{ 
+  
+  cursor: pointer;
+}
+.c-body p span
+{
+	font-weight: bolder;
+}
+
+.c-nav p
+{
+ font-size: 200%;
+}
+
+.c-nav span
+{
+	font-size: 40%;
+   text-transform: uppercase;
+   opacity: 0.2;
+}
+/*Color/look*/
+body
+{
+  background-color: #F5F5F5;
+
+}
+.c-nav ul li[data-ex]
+{
+	color: #FFBF00;
+}
+.active
+{
+	color:#CCA11E;
+	visibility: hidden;
+
+}
+.c-nav
+{
+	background-color: #30302D;
+	color: white;
+}
+
+.c-nav p:first-letter
+{
+	color: #FFBF00;
+
+}
+.c-body 
+{
+  background-color:white;
+  border-top-width:10px;
+}
+h2
+{
+	color: black;
+
+}
+
+
+
+.c-pas a{
+    color:black;
+ 
+}
+.c-pas a:hover{
+    color:white;
+}
+
+/*icons*/
+
+
+}
